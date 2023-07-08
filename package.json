@@ -1,25 +1,25 @@
 {
-	"name": "ms-hari-betest-read-api",
+	"name": "ms-hari-betest-Delete-api",
 	"version": "1.0.0",
-	"description": "Jenius Backend Developer CRUD Test - Read",
+	"description": "Jenius Backend Developer CRUD Test - Delete",
 	"main": "app.js",
 	"type": "module",
 	"scripts": {
-		"test": "read"
+		"test": "Delete"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Hari-Kiri/ms-hari-betest-read-api.git"
+		"url": "git+https://github.com/Hari-Kiri/ms-hari-betest-Delete-api.git"
 	},
 	"keywords": [
-		"ms-hari-betest-read-api"
+		"ms-hari-betest-Delete-api"
 	],
 	"author": "Hari Yulianto Pratama",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Hari-Kiri/ms-hari-betest-read-api/issues"
+		"url": "https://github.com/Hari-Kiri/ms-hari-betest-Delete-api/issues"
 	},
-	"homepage": "https://github.com/Hari-Kiri/ms-hari-betest-read-api#readme",
+	"homepage": "https://github.com/Hari-Kiri/ms-hari-betest-Delete-api#readme",
 	"dependencies": {
 		"express": "^4.18.2",
 		"mongoose": "^7.3.2"
