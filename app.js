@@ -9,13 +9,12 @@ const app = express()
 
 app.use(express.json())
 
-app.put('/delete', (request, response) => {
+app.delete('/delete', (request, response) => {
 
 	connectToDatabase(process.env.DATABASE_CONNECTION_URL)
 
-	model("userdata", UserDataModel()).deleteMany({id: request.body.id}, {
-		username: request.body.username,
-		emailAddress: request.body.emailAddress,
+	model("userdata", UserDataModel()).deleteMany({
+		id: request.body.id
 	}).then((result) => {
 		response.writeHead(200, {'Content-Type': 'application/json'}).end(JSON.stringify({
 			code: 200,
